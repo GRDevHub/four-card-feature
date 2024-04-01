@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --red: #ea5353;
+    --cyan: #45d3d3;
+    --orange: #fcaf4a;
+    --blue: #549ef2;
+
+    --very-dark-blue: #4c4e61;
+    --grayish-blue: #a3a5ae;
+    --very-light-gray: #fafafa;
+
+    /* - Family: [Poppins](https://fonts.google.com/specimen/Poppins)
+- Weights: 200, 400, 600 */
+}
+
+body{
+    min-height: 100vh;
+    background-image: url(../images/favicon-32x32.png);
+}
+
+.main{
+    background-color: var(--very-light-gray);
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 4em 2em;
+}
+
+.section{
+    margin-bottom: 4em;
+}
+
+.section__title{
+    font-size: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    font-weight: normal;
+    margin-bottom: 1em;
+}
+.bold{
+    font-weight: bold;
+}
+
+.section__paragraph{
+    font-size: 1rem;
+}
+
+.section__articles{
+    width: 100%;
+    grid-template-columns: 1fr;
+}
+
+.article{
+    width: 375px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px;
+}
